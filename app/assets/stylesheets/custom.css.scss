@@ -40,6 +40,22 @@ $navbar-default-bg: #b7d8ab;
   font-size: 1.7em;
   background-color: black;
 }
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+.description {
+  margin-top: 1px;
+}
+.article-title {
+  font-weight: light;
+  font-size: 1.5em;
+}
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .footer {
   text-align: center;
   margin-top: 5px;
