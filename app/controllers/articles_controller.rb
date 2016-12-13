@@ -28,7 +28,7 @@ class ArticlesController < ApplicationController
   def create
     debugger
     @article = Article.new(article_params)
-    @article.user = User.last
+    @article.user = current_user
     respond_to do |format|
       if @article.save
         format.html { redirect_to @article, success: 'Article was successfully created.' }
